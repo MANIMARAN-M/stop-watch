@@ -43,6 +43,7 @@ stopBtn.addEventListener("click", function(){
 });
 restartBtn.addEventListener("click", function(){
     clearInterval(interval);
+    animation.style.display = "none";
     sec = "00";
     millisec = "00";
     seconds.innerHTML = sec;
